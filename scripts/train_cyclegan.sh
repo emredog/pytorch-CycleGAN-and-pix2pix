@@ -1,1 +1,1 @@
-python train.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan --pool_size 50 --no_dropout
+python train.py --dataroot ./datasets/RainRemoval --name RainRemoval_cyclegan --model cycle_gan --pool_size 50 --no_dropout --nThreads 8 --niter 200 --niter_decay 200 --print_freq 1 --update_html_freq 100
