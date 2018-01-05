@@ -1,1 +1,1 @@
-python train.py --dataroot ./datasets/RainRemoval_toy --name RainRemoval_toy_cyclegan --model cycle_gan --pool_size 1 --no_dropout --nThreads 4 --niter 200 --niter_decay 200 --print_freq 1 --update_html_freq 100 --gpu_ids -1 --init_type kaiming --lambda_B 1 --lr 0.002 --identity 0.05
+python train.py --dataroot ./datasets/RainRemoval --name RainRemoval_cyclegan02 --model cycle_gan --pool_size 10 --no_dropout --nThreads 4 --niter 200 --niter_decay 200 --lambda_B 1 --print_freq 1 --display_freq 1 --update_html_freq 10 --identity 0.05 --continue_train --epoch_count 30
